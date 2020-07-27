@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+node_modules/
 /.pnp
 .pnp.js
 
@@ -10,6 +11,26 @@
 
 # production
 /build
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Ignore built ts files
+frontend/dist/**/*
+frontend/build/**/*
+frontend/docs/
+
+# Ignore Intellij files
+.idea/
 
 # misc
 .DS_Store
